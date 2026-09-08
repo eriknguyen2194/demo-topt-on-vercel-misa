@@ -1,0 +1,15 @@
+# Replace YOUR_GITBOOK_ORGANIZATION_ID before publishing.
+# The integration name must be globally unique in GitBook.
+name: misa-demo-totp-webframe
+title: MISA Demo TOTP
+description: Embed the MISA demo TOTP widget as a GitBook custom block.
+organization: YOUR_GITBOOK_ORGANIZATION_ID
+visibility: private
+scopes: []
+script: ./src/index.tsx
+blocks:
+  - id: misa-demo-totp
+    title: MISA Demo OTP
+    description: Live verification code widget hosted on Vercel.
+    urlUnfurl:
+      - https://demo-topt-on-vercel-misa.vercel.app/
