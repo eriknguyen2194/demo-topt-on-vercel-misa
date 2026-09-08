@@ -1,0 +1,16 @@
+{
+  "name": "misa-demo-totp-webframe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "gitbook dev",
+    "publish": "gitbook publish"
+  },
+  "dependencies": {
+    "@gitbook/runtime": "^0.195.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
